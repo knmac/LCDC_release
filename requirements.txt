@@ -1,0 +1,9 @@
+tensorflow-gpu==1.3.0
+matplotlib
+opencv-python
+pyyaml
+progressbar2
+cython
+easydict
+scikit-image
+scikit-learn

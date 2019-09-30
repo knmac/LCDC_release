@@ -1,0 +1,10 @@
+close
+fold
+open
+pour
+put
+scoop
+shake
+spread
+stir
+take

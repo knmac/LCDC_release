@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Unit test / coverage reports
+.cache
+
+# swap files
+*.swp
+
+custom/
+.ipynb_checkpoints/
+
+pretrain/
+logs/
+pretrain
+logs
+tags
+data/
+custom/
+saved_models
+
+
+experimental/extract_feat_backup
+experimental/feats
+experimental/lettuce_sample
+experimental/lettuce_sample_224
+experimental/offsets
+experimental/opflow_out
+experimental/plots
+experimental/extract_offset_motionconstraint.py
+experimental/offsets_motionconstraint/
+experimental/merl_exp_framerate/
