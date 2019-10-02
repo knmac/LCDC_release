@@ -102,7 +102,7 @@ In case the installation does not work, please replace with the files inside `./
 
 This section shows you how to set up dataset, using 50 Salads dataset as an example. Other datasets should follow a similar routine. 
 
-Download 50 Salads dataset and link it in `./data/`, *e.g.*
+Create `data/` directory, then download 50 Salads dataset and link it in `data/`, *e.g.*
 ```bash
 ln -s [/path/to/salads/dataset] ./data/50_salads_dataset
 ```
@@ -142,7 +142,7 @@ Modify the training scripts accordingly before running. All training and testing
 ./scripts/50_salads/resnet_motionconstraint/train_nomotion_g0.sh $GPU_ID
 ```
 
-You can use TensorBoard to visualize training and testing processes, *e.g.*
+Results are stored in `logs/` directory. You can use TensorBoard to visualize training and testing processes, *e.g.*
 ```bash
 tensorboard --logdir [path/to/log/dir] --port [your/choice/of/port]
 ```
