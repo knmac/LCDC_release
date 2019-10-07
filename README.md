@@ -90,7 +90,9 @@ In case the installation does not work, please replace with the files inside `./
 ## Weights and features
 
 **Pretrained models** (for initialization)
-==TODO==
+The pretrained weights are extracted from the weights provided by `TF_Deformable_Net`. Since the default deformable convolution network is implemented with 4 deformable group, we extract each of those to match the implementation of LCDC. The weights are indexed as `g0, g1, g2, g3`. The difference between choosing which one to use is minimal.
+
+The weights are available [here](https://drive.google.com/drive/folders/1Kc_NZlMf2X4rkc1aEnS-QrdoLObxs8yK?usp=sharing).
 
 **Trained weights**
 ==TODO==
