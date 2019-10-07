@@ -2,6 +2,8 @@
 
 ## About
 
+![](res/ICCV2019.png)
+
 This is the official repository for the paper *"Learning Motion in Feature Space: Locally-Consistent Deformable Convolution Networks for Fine-Grained Action Detection"* in ICCV 2019.
 
 **Links**
