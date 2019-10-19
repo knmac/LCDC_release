@@ -94,11 +94,11 @@ The pretrained weights are extracted from the weights provided by `TF_Deformable
 
 The weights are available [here](https://drive.google.com/drive/folders/1Kc_NZlMf2X4rkc1aEnS-QrdoLObxs8yK?usp=sharing).
 
-**Trained weights**
-==TODO==
+**Trained models**
+Trained models are available [here](https://drive.google.com/drive/folders/1rhVDXPiUMIKRIOw7tzuJQg-BCMq7jBUy?usp=sharing).
 
 **Extracted features** (for TCN)
-==TODO==
+Short-temporal features for TCN networks are available [here](https://drive.google.com/drive/folders/1uWUXW8j37Dc1AGBMo01lmAIyedqJQIGS?usp=sharing).
 
 ## Usage
 
