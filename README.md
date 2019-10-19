@@ -172,8 +172,6 @@ Please change the output dir and other parameters accordingly.
 ./scripts/50_salads/resnet_motionconstraint/extract_feat_nomotion_g0.sh $GPU_ID
 ```
 
-==TODO==
-
 ## Citation
 
 If you are interested in using this project, please cite our paper as
