@@ -8,8 +8,8 @@ This is the official repository for the paper *"Learning Motion in Feature Space
 
 **Links**
 
-- Paper: [arXiv](https://arxiv.org/abs/1811.08815)
-- Project page: [link](https://knmac.github.io/projects/lcdc)
+- Paper: [[CVF](http://openaccess.thecvf.com/content_ICCV_2019/papers/Mac_Learning_Motion_in_Feature_Space_Locally-Consistent_Deformable_Convolution_Networks_for_ICCV_2019_paper.pdf)], [[arXiv](https://arxiv.org/abs/1811.08815)]
+- Project page: [[link](https://knmac.github.io/projects/lcdc)]
 
 **Experimental results:**
 
@@ -90,14 +90,17 @@ In case the installation does not work, please replace with the files inside `./
 ## Weights and features
 
 **Pretrained models** (for initialization)
+
 The pretrained weights are extracted from the weights provided by `TF_Deformable_Net`. Since the default deformable convolution network is implemented with 4 deformable group, we extract each of those to match the implementation of LCDC. The weights are indexed as `g0, g1, g2, g3`. The difference between choosing which one to use is minimal.
 
 The weights are available [here](https://drive.google.com/drive/folders/1Kc_NZlMf2X4rkc1aEnS-QrdoLObxs8yK?usp=sharing).
 
 **Trained models**
+
 Trained models are available [here](https://drive.google.com/drive/folders/1rhVDXPiUMIKRIOw7tzuJQg-BCMq7jBUy?usp=sharing).
 
 **Extracted features** (for TCN)
+
 Short-temporal features for TCN networks are available [here](https://drive.google.com/drive/folders/1uWUXW8j37Dc1AGBMo01lmAIyedqJQIGS?usp=sharing).
 
 ## Usage
@@ -176,16 +179,16 @@ Please change the output dir and other parameters accordingly.
 
 If you are interested in using this project, please cite our paper as
 ```latex
-@inproceedings{Mac_2019_ICCV,
-    author    = {Khoi{-}Nguyen C. Mac and
-                 Dhiraj Joshi and
-                 Raymond A. Yeh and
-                 Jinjun Xiong and
-                 Rog{\'{e}}rio Schmidt Feris and
-                 Minh N. Do},
+@InProceedings{Mac_2019_ICCV,
+    author    = {Mac, Khoi-Nguyen C. and 
+                 Joshi, Dhiraj and 
+                 Yeh, Raymond A. and 
+                 Xiong, Jinjun and 
+                 Feris, Rogerio S. and 
+                 Do, Minh N.},
     title     = {Learning Motion in Feature Space: Locally-Consistent Deformable Convolution Networks for Fine-Grained Action Detection},
     booktitle = {The IEEE International Conference on Computer Vision (ICCV)},
-    month     = {Oct},
+    month     = {October},
     year      = {2019}
 }
 ```
