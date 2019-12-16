@@ -1,4 +1,4 @@
-tensorflow-gpu==1.3.0
+tensorflow-gpu==1.15.0
 matplotlib
 opencv-python
 pyyaml
